@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Choose the Right Heart</title>
+<style>
+body{
+text-align:center;
+background:linear-gradient(to bottom,#ffb6c1,#ffe4ec);
+font-family:cursive;
+padding-top:80px;
+}
+.heart{
+font-size:50px;
+cursor:pointer;
+margin:20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Choose the right heart to continue 💕</h2>
+
+<div>
+<span class="heart" onclick="wrong()">💖</span>
+<span class="heart" onclick="wrong()">💘</span>
+<span class="heart" onclick="right()">❤️</span>
+<span class="heart" onclick="wrong()">💝</span>
+</div>
+
+<script>
+function wrong(){
+alert("Oops! Try again 💕");
+}
+function right(){
+window.location.href="page3.html";
+}
+</script>
+
+</body>
+</html>

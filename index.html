@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will You Be My Valentine?</title>
+<style>
+body{
+text-align:center;
+background:linear-gradient(to bottom,#ff9eb5,#ffc1d6);
+font-family:cursive;
+padding-top:100px;
+}
+button{
+padding:15px 25px;
+font-size:18px;
+border:none;
+border-radius:30px;
+margin:15px;
+}
+#yes{
+background:red;
+color:white;
+}
+#no{
+background:#ffb6c1;
+}
+</style>
+</head>
+<body>
+
+<h1>Will you be my Valentine? 💖</h1>
+
+<button id="yes" onclick="nextPage()">Yes 💘</button>
+<button id="no" onclick="hideNo()">No 💔</button>
+
+<script>
+function hideNo(){
+document.getElementById("no").style.display="none";
+}
+function nextPage(){
+window.location.href="page2.html";
+}
+</script>
+
+</body>
+</html>
